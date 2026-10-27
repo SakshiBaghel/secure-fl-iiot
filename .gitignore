@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch checkpoints
+*.pt
+*.pth
+
+# Data (Raw large datasets)
+data/*.csv
+data/*.pcap
+!data/synthetic_iiot_traffic.csv
+!data/README.md
+
+# Hardhat / Node
+blockchain/node_modules/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/typechain/
+blockchain/typechain-types/
+
+# Environment variables
+.env
+*.env.local
+
+# Results / figures (tracked sample results)
+# results/
+
+
+# Streamlit
+.streamlit/
